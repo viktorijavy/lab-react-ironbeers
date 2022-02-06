@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+html {
+   font-size: 62.5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body {
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.beer-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+
+.main-container {
+  width: 65rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  width: 37rem;
+  height: 45rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 1.5rem;
+  
+}
+
+.grid {
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  
+}
+
+.header {
+  height: 4rem;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: auto;
   color: white;
+  
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.beer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 50rem;
+  height: 100rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 1.5rem;
+  
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.beer-cont {
+  display: flex;
+  justify-content: center;
 }
