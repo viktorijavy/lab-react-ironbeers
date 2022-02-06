@@ -134,3 +134,14 @@ body {
   width: 50%;
   
 }
+
+.searchfield {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.input-field {
+  width: 80%;
+  padding: 0.5rem;
+}
