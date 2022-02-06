@@ -34,7 +34,7 @@ const Home = () => {
 
           <div className="beer-container">
           <img width="650px" src="https://images.unsplash.com/photo-1575037614876-c38a4d44f5b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="beer"/>
-              <h1>New Beer</h1>
+            <Link to={'/new-beer'}> <h1>New Beer</h1></Link> 
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
               took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
